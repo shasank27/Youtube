@@ -20,7 +20,6 @@ class _NavScreenState extends State<NavScreen> {
   static const double _playerMinHeight = 60.0;
 
   int _selectedIndex = 0;
-
   final _screens = [
     HomeScreen(),
     const Scaffold(body: Center(child: Text('Explore'))),
